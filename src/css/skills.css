@@ -1,0 +1,257 @@
+
+.black1{
+background-color: rgba(0, 0, 0, 0.692);
+height:52rem;
+}
+
+.design{
+    margin-top: 0rem;
+  
+}
+.myskill1{
+    color: white;
+height: 15rem;
+
+      background:top/cover  url("../images1/spar.jpg") ;
+      background-attachment: fixed;
+        border-top:solid .1px white;
+border-bottom:solid .1px white;
+    z-index:5;
+    font-weight: bold;
+display: flex;
+justify-content: center;
+padding-right:7vw;
+padding-left:3vw;
+line-height: 40px;
+    font-size:3rem;
+    
+ /* background-color: rgba(0, 0, 0, 0.562); */
+        text-shadow: .3rem .3rem .5rem black;
+        padding-top:9rem;
+            /* padding-bottom:55rem; */
+            margin-top:0rem;
+    /* padding-left: 100px;
+    padding-top:160px;
+    margin-left:38px; */
+}
+.myskill{
+    z-index:1;
+    display: flex;
+justify-content: center;
+   background:top/cover  url("../images1/spar.jpg") ;
+      background-attachment: fixed;
+        border-top:solid .1px white;
+border-bottom:solid .1px white;
+          height: 15rem;
+/* padding-right: 4rem; */
+   /* margin-left:17rem;
+
+   margin-right:20rem; */
+        text-shadow: .3rem .3rem .5rem black;
+
+    color: white;
+    padding-top:6rem;
+    line-height:2rem;
+    padding-left:3rem;
+      padding-right:6vw;
+    font-size:2.8rem;
+    font-weight: bold;
+}
+.ad{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    /* margin-bottom:7rem; */
+    padding-bottom:5.5rem;
+            background-color: rgba(0, 0, 0, 0.692);
+}
+.adverb{
+ display: flex;
+ justify-content:center;
+ text-align: center;
+ width: 100vw;
+
+ /* margin:0rem 2rem 1rem 3rem; */
+margin-top:3rem;
+ margin-bottom:0rem;
+
+}
+.adverb1{
+ display: flex;
+ justify-content:center;
+ text-align: center;
+ /* margin:0rem 2rem 1rem 3rem; */
+ margin-top:2rem;
+ margin-bottom:1rem;
+
+}
+.hr{
+ display: flex;
+ justify-content:center;
+ text-align: center;
+ flex-wrap: wrap;
+ margin-bottom:13rem;
+
+}
+.adverbs{
+    width:15rem;
+    margin-right:4rem;
+     margin-left:1rem;
+}
+
+.iconss{
+    color: rgb(255, 255, 255);
+    font-size:8rem;
+ 
+}
+.title{
+    font-size:1.2rem;
+    font-style: italic;
+    font-weight: bold;
+       color:tomato;
+            text-shadow: .1rem .1rem .2rem black;
+}
+.msgg{
+    font-size:.8rem;
+    line-height: .9rem;
+    color: white;
+    font-weight: 100;
+}
+.mernskill{
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items:center;
+    color: white;  /* margin-top:10rem; */
+    padding-top:8.8rem;
+    margin-right:2.8vw;
+
+    /* margin-left:-25vw; */
+    
+}
+.promap{
+padding-bottom:5rem;
+/* padding-left:4vw;
+padding-right:4vw; */
+width:45%;
+}
+
+.bar{
+    padding: 50px;
+}
+.name{
+    z-index: 2;
+    font-weight: bold;
+    font-size:.8rem;
+    margin-top:-25px;
+    color: rgb(255, 255, 255);
+}
+.progress{
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    height:3px;
+    border-radius:4px;
+}
+.progress1{
+    z-index:1;
+    background-color: rgb(255, 79, 47);
+    height:3px;
+     border-radius:4px;
+     margin-top: -3px;
+}
+
+.percent{
+    z-index: 2;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    margin-top:-20px;
+text-align: end;
+
+
+}
+@media(max-width:767){
+.myskill{
+    font-size:2rem;
+
+}
+
+}
+@media(max-width:750px){
+    .skills{
+      height:76rem;
+}
+
+}
+
+@media(max-width:475px){
+
+    .myskill{
+        font-size:2rem;
+    }
+
+    .adverb{
+         margin-top:2.5rem;
+         flex-direction: column;
+         align-items: center;
+         padding-right: 2rem;
+         padding-bottom:0rem;
+    }
+.adverbs{
+    display: flex;
+    width:70vw;
+}
+.title hr{
+    width:30vw;
+
+}
+.msgg{
+    margin-top:6rem;
+    margin-left:0rem;
+}
+    .iconss{
+        font-size:7rem;
+    }
+    .adverb1{
+         margin-top:0rem;
+          margin-right: 1rem;
+         flex-direction: column;
+          align-items: center;
+
+    }
+
+}
+
+@media(max-width:337px){
+    .myskill{
+    font-size:2.4rem;
+    margin-top:0rem;
+}
+
+}
+
+@media(max-width:767px){
+    .adverb{
+         margin-top:2.5rem;}
+    .promap{
+        padding-top:.5rem;
+      width:77%;
+    }
+    .myskill{
+        padding-top:7rem;
+    padding-bottom:9rem;;
+    }
+.skills{
+    height:70rem;
+}
+.black1{
+    height: 50rem;
+}
+.iconss{
+    font-size:6rem;
+}
+.title{
+    font-size:1rem;
+}
+}

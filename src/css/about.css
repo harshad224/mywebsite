@@ -1,0 +1,217 @@
+/* .img2{
+    position: relative;
+
+    width: 100vw;
+
+      border-top:solid .1px white;
+border-bottom:solid .1px white;
+      margin-top:-5rem;
+} */
+.me{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index:1;
+    color: rgb(255, 255, 255);
+        height:15rem;
+     background:top/cover  url("../images1/spar.jpg") ;
+      background-attachment: fixed;
+           border-top:solid .1px white;
+border-bottom:solid .1px white;
+    text-align: center;
+        text-shadow: .3rem .3rem .5rem black;
+ /* background:top/cover  url("../images1/camel.png") ; */
+ /* background-color: rgba(0, 0, 0, 0.562);
+background-attachment: fixed; */
+    width: 100vw;
+    /* height:70rem; */
+    font-size:3rem;
+    font-weight: bold;
+    line-height: 5rem;
+    /* margin-top:-15rem; */
+    padding:7.8rem 7.2rem 0rem 3rem;
+}
+
+.eat{
+    position: relative;
+    display: flex;
+justify-content: center;
+    z-index:1;
+    color: white;
+    font-style: italic;
+    font-size: 1rem;
+    /* margin-top:-55rem; */
+    margin-right:2.8rem;
+    padding-top:6.2rem;
+}
+.mechanical{
+    position:relative;
+    text-align: center;
+text-shadow: .1rem .1rem .2rem black;
+       z-index:1;
+    font-size:3rem;
+    font-weight: 100;
+    color: tomato;
+    margin-top:4rem;
+    margin-left: 1rem;
+    margin-right:3.4rem;
+    line-height:3rem;
+    margin-bottom: 1rem;
+}
+
+.myself{
+    width:100vw;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 2rem;
+}
+.myself1{
+     width:100vw;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 2rem;
+padding-bottom:6rem;
+}
+.personality{
+    text-align: center;
+    z-index:6;
+margin-top:3rem;
+margin-right:10rem;
+margin-left:.5rem;
+text-shadow: .1rem .1rem .2rem black;
+}
+.myperson{
+      text-align: center;
+color: tomato;
+font-style: italic;
+font-size: 1rem;
+margin-right: 1rem;
+}
+.myperson1{
+      text-align: center;
+color: white;
+font-weight: 100;
+font-size:.8rem;
+line-height: 1rem;
+ width:90%;
+}
+
+.goals{
+  text-align: center;
+    z-index:1;
+       margin-top:3rem;
+       margin-right:4rem;
+       text-shadow: .1rem .1rem .2rem black;
+}
+
+.strength{
+      text-align: center;
+       z-index:1;
+    font-weight: 100;
+    color: white;
+    margin-top:1rem;
+           margin-right:2rem;
+           text-shadow: .1rem .1rem .2rem black;
+}
+
+.passion{
+      text-align: center;
+      margin-right:3.8rem;
+    font-weight: 100;
+       z-index:1;
+    color: white;
+     margin-top:1rem;
+     text-shadow: .1rem .1rem .2rem black;
+}
+
+@media(max-width:1028px){
+    .passion{
+         margin-right:2.2rem;
+     }
+     .personality{
+         margin-right: 9rem;
+     }
+     .me{
+        padding-right:3rem;
+     }
+     .eat{
+         margin-right:.2rem;
+     }
+    }
+
+
+@media(max-width:860px){
+    /* .mechanical{
+        font-size:2.5rem;
+    } */
+    .myself{
+        font-size: 90%;
+    }
+      .myself{
+        font-size: 90%;
+    }
+}
+
+
+
+@media(max-width:626px){
+    .personality{
+     margin-left: 1rem;
+     margin-right: 1rem;
+    }
+    .strength{
+     margin-left: 1rem;
+     margin-right: 1rem;
+    }
+    .goals{
+     margin-left: 1rem;
+     margin-right: 1rem;
+    }
+    .passion{
+     margin-left: 1rem;
+     margin-right: 1rem;
+    }
+    .mechanical{
+        font-size:2.5rem;
+    }
+}
+@media(max-width:469px){
+    .myperson{
+    width:90%;
+    font-size: 1rem;
+    }
+    .myperson1{
+    width:90%;
+     font-size:.75rem;
+    }
+.mechanical{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+}
+
+@media(max-width:475px){
+    .me{
+        font-size:2.3rem;
+    }
+}
+@media(max-width:335px){
+    .myself{
+        display: flex;
+        flex-direction: column;
+    }
+        .myself1{
+       display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:236px){
+    .me{
+        font-size:2.3rem;
+       padding-left: 1rem;
+       padding-right: 1rem;
+    }
+}
