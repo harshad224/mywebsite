@@ -1,0 +1,11 @@
+{
+    "root": "build/",
+    "routes": {
+        "/**": "index.html"
+    },
+    "proxies": {
+        "/api": {
+            "origin": "https://my-personal-website111.herokuapp.com"
+        }
+    }
+}
