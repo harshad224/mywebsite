@@ -63,7 +63,7 @@ function App() {
             </ul>
           </div>
           <div className=''>
-            <button className="btn download"><a href="" className="down1" download>Download CV</a></button>
+            <button className="btn download"><a href="./images1/hp-converted.pdf" className="down1" download>Download CV</a></button>
             <div className="hambutton">
               <button className="hambutton1">
                 <div className="hamburger" >
@@ -82,26 +82,27 @@ function App() {
             </div>
           </div>
         </nav >
+
         <section className=''>
           <div id="carouselExampleFade" className="tab carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <video className="" controls loop autoPlay>Your browser does not support the &lt;video&gt; tag.
+                <video className="" loop autoPlay>Your browser does not support the &lt;video&gt; tag.
                   <source src="images/campfire.mp4" />
                 </video>
               </div>
               <div className="carousel-item">
-                <video className="" controls loop autoPlay>Your browser does not support the &lt;video&gt; tag.
+                <video className="" loop autoPlay>Your browser does not support the &lt;video&gt; tag.
                   <source src="images/intothewoods.mp4" />
                 </video>
               </div>
               <div className="carousel-item">
-                <video className="" controls loop autoPlay>Your browser does not support the &lt;video&gt; tag.
+                <video className="" loop autoPlay>Your browser does not support the &lt;video&gt; tag.
                   <source src="images/lakefrontcabin.mp4" />
                 </video>
               </div>
               <div className="carousel-item">
-                <video className="" controls loop autoPlay>Your browser does not support the &lt;video&gt; tag.
+                <video className="" loop autoPlay>Your browser does not support the &lt;video&gt; tag.
                   <source src="images/intothevalley.mp4" />
                 </video>
               </div>
